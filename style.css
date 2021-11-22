@@ -13,6 +13,7 @@ body{
     width: 100vw;
     height: 60px;
     position: sticky;
+    top: 0;
     z-index: 10;
     background-color: rgb(163, 126, 126);
 }
@@ -328,4 +329,26 @@ a:hover{
     background-color: rgb(183, 233, 133);
     font-size: 1.rem;
 
+}
+
+
+/* animation sectionn  */
+.cicle1{
+    border: .5px solid red;
+    background-color: rgb(140, 224, 14);
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    animation: cicle 1s ease-in-out 1s infinite;
+    
+}
+@keyframes cicle{
+    form{
+        bottom: 0;
+        background-color: rgb(140, 224, 14);
+    }
+    to{
+        top: 0;
+        border-color: rgb(230, 200, 200);
+    }
 }
